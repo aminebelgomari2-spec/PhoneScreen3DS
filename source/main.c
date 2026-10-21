@@ -22,7 +22,7 @@
 #define SOC_SIZE  0x100000
 #define IP_FILE   "sdmc:/3ds/phonescreen_ip.txt"
 
-static u8 *socBuf;
+static u32 *socBuf;
 static int sock = -1;
 static tjhandle tj;
 
